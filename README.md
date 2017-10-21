@@ -1,10 +1,11 @@
 # React-firebase-integration
  Functional integration between react and firebase. Example application with firebase database.
- 
- ## Installation
- 
- `npm install`
- 
- `npm start`
+
+## Installation
+Run these commands in the project folder
+
+`npm install`
+
+`npm start`
  
  
