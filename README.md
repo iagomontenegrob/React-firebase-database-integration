@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 This project was bootstrapped with [Create React App](https://github.com/facebookincubator/create-react-app).
 
 Below you will find some information on how to perform common tasks.<br>
@@ -2162,3 +2163,52 @@ To resolve this:
 ## Something Missing?
 
 If you have ideas for more “How To” recipes that should be on this page, [let us know](https://github.com/facebookincubator/create-react-app/issues) or [contribute some!](https://github.com/facebookincubator/create-react-app/edit/master/packages/react-scripts/template/README.md)
+=======
+# React-firebase-integration
+Functional integration between react and firebase. In this application you can simulate the registration of an user and, in real time, see your records in a list of users that is load from the information obtained on firebase db.
+
+### Pre-requisites
+You have to install **Node.js**.
+
+### Installation
+Run these commands in the project folder
+
+`npm install`
+
+`npm start`
+
+### Cofig
+If you still don’t have a Firebase account, create one in https://firebase.google.com/. Log in your account, go to the console and create a project. After entering the project, look for ‘add Firebase to your app on web’, it will create a code just like the one below:
+
+```html
+<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "<YOUR-API-KEY>",
+    authDomain: "<YOUR-PROJECT-ID>.firebaseapp.com",
+    databaseURL: "https://<YOUR-PROJECT-ID>.firebaseio.com",
+    projectId: "<YOUR-PROJECT-ID>",
+    storageBucket: "<YOUR-PROJECT-ID>.appspot.com",
+    messagingSenderId: "<YOUR-MESSAGING-SENDER-ID>"
+  };
+  firebase.initializeApp(config);
+</script>
+```
+In the project, update the **DB_CONFIG** in the file **/Config/config.js** with all the gathered information.
+
+### Database Permissions
+Verify the rules file of the database. The **Rules** file can be found on the second tab of menu database. If necessary, edit it, leaving the file as shown below:
+
+```json
+{
+  "rules": {
+    ".read": true,
+    ".write": true
+  }
+}
+```
+# HAVE FUN!
+ 
+ 
+>>>>>>> 443d90d6a29c54aae6efab2fe75fb6198ba50e83
