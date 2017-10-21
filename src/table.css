@@ -1,0 +1,11 @@
+.table {
+
+  color: red !important;
+  width: 100% !important;
+
+}
+
+.table .image{
+
+  margin: 8px !important;
+}
