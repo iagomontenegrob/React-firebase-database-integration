@@ -29,7 +29,7 @@ If you still don’t have a Firebase account, create one in https://firebase.goo
 In the project, update the **DB_CONFIG** in the file **/Config/config.js** with all the gathered information.
 
 ### Database Permissions
-If you have a problem like **Permission Denied** check the Rules of your firebase db. The rule file encontra-se na segunda aba do database, edite caso necessário para deixar como é mostrado abaixo:
+Verify the rules file of the database. The **Rules** file can be found on the second tab of menu database. If necessary, edit it, leaving the file as shown below:
 
 ```json
 {
