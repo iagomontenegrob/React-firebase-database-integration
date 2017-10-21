@@ -11,7 +11,8 @@ Run these commands in the project folder
 ### Cofig
 If you still don’t have a Firebase account, create one in <link>. Log in your account, go to the (não tenho ideia de como é console vou procurar) and create a project. After entering the project, look for ‘add Firebase to your app on web’, it will create a code just like the one below:
 
-``<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
+``
+<script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
 <script>
   // Initialize Firebase
   var config = {
@@ -23,7 +24,8 @@ If you still don’t have a Firebase account, create one in <link>. Log in your 
     messagingSenderId: "<YOUR-MESSAGING-SENDER-ID>"
   };
   firebase.initializeApp(config);
-</script>``
+</script>
+``
 `
  
  
