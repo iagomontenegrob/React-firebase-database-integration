@@ -39,6 +39,6 @@ Verify the rules file of the database. The **Rules** file can be found on the se
   }
 }
 ```
-#HAVE FUN!
+# HAVE FUN!
  
  
