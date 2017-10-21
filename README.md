@@ -3,7 +3,8 @@
  
  ## Installation
  
- `npm install
- <br>npm start`
+ `npm install`
+ 
+ `npm start`
  
  
