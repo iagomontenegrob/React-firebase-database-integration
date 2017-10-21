@@ -1,5 +1,5 @@
 # React-firebase-integration
- Functional integration between react and firebase. Example application with firebase database. On this application you can push a user object by a simple form and on realtime see a list of users already on the firebase database.
+Functional integration between react and firebase. In this application you can simulate the registration of an user and, in real time, see your records in a list of users that is load from the information obtained on firebase db.
 
 ### Installation
 Run these commands in the project folder
@@ -26,8 +26,7 @@ If you still don’t have a Firebase account, create one in https://firebase.goo
   firebase.initializeApp(config);
 </script>
 ```
-
-In project, update the **DB_CONFIG** in **/Config/config.js** file with your informations.
+In the project, update the **DB_CONFIG** in the file **/Config/config.js** with all the gathered information.
 
 ### Database Permissions
 If you have a problem like **Permission Denied** check the Rules of your firebase db. The rule file encontra-se na segunda aba do database, edite caso necessário para deixar como é mostrado abaixo:
