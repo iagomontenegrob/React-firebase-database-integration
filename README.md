@@ -29,7 +29,7 @@ If you still don’t have a Firebase account, create one in <link>. Log in your 
 
 In project, update the DB_CONFIG in /Config/config.js file with your informations.
 
-### Databse Permissions
+### Database Permissions
 If you have a problem like Permission Denied check the Rules of your firebase db. The rule file encontra-se na segunda aba do database, edite caso necessário para deixar como é mostrado abaixo:
 
 ```json
