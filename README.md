@@ -4,6 +4,6 @@
  ## Installation
  
  `npm install
- \nnpm start`
+ <br>npm start`
  
  
