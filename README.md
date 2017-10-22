@@ -7,12 +7,13 @@ You have to install **Node.js**.
 ### Installation
 Run these commands in the project folder
 
-`npm install`
+```bash
+npm install
+npm start
+```
 
-`npm start`
-
-### Cofig
-If you still don’t have a Firebase account, create one in https://firebase.google.com/. Log in your account, go to the console and create a project. After entering the project, look for ‘add Firebase to your app on web’, it will create a code just like the one below:
+### Config
+If you still don’t have a [Firebase](https://firebase.google.com/) account. Log in your account, go to the console and create a project. After entering the project, look for ‘add Firebase to your app on web’, it will create a code just like the one below:
 
 ```html
 <script src="https://www.gstatic.com/firebasejs/4.6.0/firebase.js"></script>
