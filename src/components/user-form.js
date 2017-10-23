@@ -28,6 +28,10 @@ class UserForm extends Component {
     });
   }
 
+  closeMessage(){
+    this.setState({messageVisible: false});
+  }
+
   validateForm(){
 
     this.state.message = "";
@@ -76,7 +80,7 @@ class UserForm extends Component {
       
         { this.state.messageVisible ? 
         <div class="ui warning message transition">
-          <i class="close icon"></i>
+          <i class="close icon" onClick={(event) => this.closeMessage(event)}></i>
           <div class="header">
             {this.state.message}
           </div>
