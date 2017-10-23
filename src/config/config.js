@@ -1,8 +1,8 @@
 export const DB_CONFIG = {
-    apiKey: "<YOUR-API-KEY>",
-    authDomain: "<YOUR-PROJECT-ID>.firebaseapp.com",
-    databaseURL: "https://<YOUR-PROJECT-ID>.firebaseio.com",
-    projectId: "<YOUR-PROJECT-ID>",
-    storageBucket: "<YOUR-PROJECT-ID>.appspot.com",
-    messagingSenderId: "<YOUR-MESSAGING-SENDER-ID>"
+    apiKey: "AIzaSyATbx5PqjTRDE7GPxK9xTQN-I49IgEwr7Q",
+    authDomain: "fidelidade-6c247.firebaseapp.com",
+    databaseURL: "https://fidelidade-6c247.firebaseio.com",
+    projectId: "fidelidade-6c247",
+    storageBucket: "fidelidade-6c247.appspot.com",
+    messagingSenderId: "658857769995"
 };
